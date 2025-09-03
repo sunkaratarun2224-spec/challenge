@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Elite Cars Showroom</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #f8f8f8;
+      color: #333;
+    }
+    header {
+      background: #111;
+      color: #fff;
+      padding: 20px 0;
+      text-align: center;
+    }
+    nav {
+      background: #444;
+      padding: 12px;
+      text-align: center;
+    }
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: bold;
+    }
+    nav a:hover {
+      color: #ffcc00;
+    }
+    .hero {
+      background: url('https://images.unsplash.com/photo-1549921296-3a74be95d6b2') no-repeat center center/cover;
+      height: 450px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #fff;
+      font-size: 2.5rem;
+      font-weight: bold;
+      text-shadow: 2px 2px 8px rgba(0,0,0,0.7);
+    }
+    .container {
+      width: 90%;
+      max-width: 1200px;
+      margin: 40px auto;
+    }
+    .section-title {
+      text-align: center;
+      margin-bottom: 20px;
+      font-size: 2rem;
+      color: #222;
+    }
+    .cars {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      justify-content: center;
+    }
+    .car-card {
+      background: #fff;
+      border-radius: 8px;
+      overflow: hidden;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+      width: 300px;
+      text-align: center;
+      transition: transform 0.3s;
+    }
+    .car-card:hover {
+      transform: scale(1.05);
+    }
+    .car-card img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+    }
+    .car-card h3 {
+      margin: 15px 0 10px;
+    }
+    .car-card p {
+      padding: 0 10px 20px;
+    }
+    footer {
+      background: #111;
+      color: #fff;
+      text-align: center;
+      padding: 20px 0;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Elite Cars Showroom</h1>
+    <p>Luxury • Performance • Style</p>
+  </header>
+
+  <nav>
+    <a href="#">Home</a>
+    <a href="#cars">Cars</a>
+    <a href="#about">About</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section class="hero">
+    <div>Find Your Dream Car Today</div>
+  </section>
+
+  <section id="cars" class="container">
+    <h2 class="section-title">Our Featured Cars</h2>
+    <div class="cars">
+      <div class="car-card">
+        <img src="https://images.unsplash.com/photo-1619767886558-efdc6ffb4e80" alt="Luxury Sedan">
+        <h3>Luxury Sedan</h3>
+        <p>Comfort and elegance combined for city rides.</p>
+      </div>
+      <div class="car-card">
+        <img src="https://images.unsplash.com/photo-1605559424843-0a57d205c3ba" alt="Sports Car">
+        <h3>Sports Car</h3>
+        <p>High-speed performance for thrill seekers.</p>
+      </div>
+      <div class="car-card">
+        <img src="https://images.unsplash.com/photo-1616789913669-4d5f0436e93f" alt="SUV">
+        <h3>Luxury SUV</h3>
+        <p>Powerful, spacious, and ready for any adventure.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="about" class="container">
+    <h2 class="section-title">About Us</h2>
+    <p>Elite Cars Showroom is your one-stop destination for premium and luxury cars. From sports models to family SUVs, we provide vehicles that define style, comfort, and performance. Our expert team is dedicated to helping you drive away in your dream car.</p>
+  </section>
+
+  <section id="contact" class="container">
+    <h2 class="section-title">Contact Us</h2>
+    <p>Email: info@elitecars.com | Phone: +1 555 987 654</p>
+    <p>Visit us at: 456 Luxury Drive, Your City</p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Elite Cars Showroom | All Rights Reserved</p>
+  </footer>
+</body>
+</html>
